@@ -1,5 +1,5 @@
 # database.py
-import streamlit as st # <--- Importante adicionar isso
+import streamlit as st 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker, scoped_session
 
