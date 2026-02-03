@@ -61,7 +61,7 @@ with st.sidebar:
 
     st.divider()
     
-    # 2. REMOVER (CORRIGIDO COM ID)
+    # 2. REMOVER
     with st.expander("Remover Personagem"):
         p_removiveis = session.query(Personagem).all()
         if p_removiveis:
